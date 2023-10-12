@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+flask = "*"
+pandas = "*"
+flask-bootstrap = "*"
+pillow = "*"
+folium = "*"
+psycopg2 = "*"
+scipy = "*"
+psycopg2-binary = "*"
+beautifulsoup4 = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
